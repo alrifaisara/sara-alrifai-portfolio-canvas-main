@@ -3,46 +3,21 @@ import { Card, CardContent } from '@/components/ui/card';
 
 const Experience = () => {
   const experiences = [
-    {
-      title: "Mechatronics Engineering Intern",
-      organization: "Advanced Robotics Labs",
-      dates: "Jun 2023 - Present",
+     {
+      title: "Engineering Co-op",
+      organization: "Mondelēz International – Halls Plant",
+      dates: "Sep 2025 - Apr 2026",
+      technologies: "PLCs · AutoCAD · CAPEX · Equipment Integration · Power BI",
       achievements: [
-        "Developed automated testing systems that reduced quality control time by 40%",
-        "Programmed Arduino and Raspberry Pi controllers for industrial automation",
-        "Collaborated on multi-disciplinary team to design robotic assembly line components"
+        "Led a production-line PLC controls upgrade project, coordinating contractors and internal engineering teams through controls development, design reviews, equipment integration, implementation planning, and project execution.",
+        "Developed the technical scope, cost justification, and implementation strategy for a CAPEX project and presented the proposal to North American governance for approval.",
+        "Created and maintained AutoCAD plant layouts for equipment installations and facility modifications, including layout development and design support for the Voltron packaging system.",
+        "Developed equipment operating principles by sketching, disassembling, and inspecting machine subassemblies to document component functions and support operator training.",
+        "Supported plant safety and facility-improvement projects, including the design and implementation of a pedestrian crosswalk integrating operational, layout, and employee-safety requirements.",
+        "Created a Power BI Gemba walk tracker to monitor action items, standardize reporting, and improve visibility of outstanding plant issues."
       ]
-    },
-    {
-      title: "Research Assistant",
-      organization: "University Robotics Department",
-      dates: "Sep 2022 - May 2023",
-      achievements: [
-        "Conducted research on machine learning applications in autonomous systems",
-        "Published findings in IEEE conference proceedings",
-        "Mentored 3 undergraduate students on robotics projects"
-      ]
-    },
-    {
-      title: "Engineering Tutor",
-      organization: "University Learning Center",
-      dates: "Jan 2022 - Present",
-      achievements: [
-        "Tutored 50+ students in mathematics, physics, and programming fundamentals",
-        "Developed innovative teaching methods that improved student performance by 25%",
-        "Created supplementary learning materials and video tutorials"
-      ]
-    },
-    {
-      title: "Junior Software Developer",
-      organization: "TechStart Solutions",
-      dates: "May 2021 - Aug 2021",
-      achievements: [
-        "Built responsive web applications using React and TypeScript",
-        "Implemented RESTful APIs and database optimization strategies",
-        "Participated in agile development processes and code reviews"
-      ]
-    }
+  }
+     
   ];
 
   const containerVariants = {
@@ -80,11 +55,10 @@ const Experience = () => {
           <p className="text-xl text-white max-w-2xl mx-auto">
             My professional journey in engineering, research, and technology
           </p>
+          
         </motion.div>
 
         <div className="relative">
-          {/* Timeline Line */}
-          <div className="absolute left-8 top-0 bottom-0 w-0.5 bg-gradient-primary hidden md:block" />
 
           <motion.div
             variants={containerVariants}
@@ -99,10 +73,6 @@ const Experience = () => {
                 variants={itemVariants}
                 className="relative flex items-start gap-8"
               >
-                {/* Timeline Dot */}
-                <div className="hidden md:flex w-16 h-16 rounded-full gradient-primary items-center justify-center text-primary-foreground font-bold text-lg glow-primary">
-                  {index + 1}
-                </div>
 
                 {/* Content Card */}
                 <Card className="glass hover:glow-primary transition-smooth flex-1 group">
@@ -114,6 +84,9 @@ const Experience = () => {
                         </h3>
                         <p className="text-lg text-foreground font-medium">
                           {exp.organization}
+                        </p>
+                        <p className="text-sm text-white/70 mt-1">
+                          {exp.technologies}
                         </p>
                       </div>
                       <div className="text-sm text-white mt-2 md:mt-0 md:text-right">

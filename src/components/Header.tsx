@@ -12,11 +12,8 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const titles = [
-    "Mechatronics Engineer", 
-    "Embedded Systems Developer", 
-    "Robotics Enthusiast", 
-    "Future Innovator", 
-    "Hands-On Engineer"
+    "Mechatronics Engineering Student", 
+    "Hands-on Engineer",
   ];
 
   const navItems = [

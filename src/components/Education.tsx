@@ -4,24 +4,23 @@ import { GraduationCap, Calendar, MapPin } from 'lucide-react';
 
 const Education = () => {
   const education = {
-    school: "University of Technology",
-    program: "Bachelor of Engineering in Mechatronics",
-    graduation: "Expected May 2025",
-    location: "Engineering Campus",
-    gpa: "3.8/4.0",
-    achievements: [
-      "Dean's List for 4 consecutive semesters",
-      "President of Robotics Engineering Society",
-      "IEEE Student Member and active participant",
-      "Winner of University Innovation Challenge 2023"
-    ],
+    school: "University of Waterloo",
+    program: "Bachelor of Applied Science in Mechatronics Engineering",
+    graduation: "Expected April 2028",
+    location: "Waterloo, Ontario, Canada",
+   
     relevantCourses: [
-      "Control Systems Engineering",
-      "Robotics and Automation", 
-      "Machine Learning Applications",
-      "Digital Signal Processing",
-      "Embedded Systems Design",
-      "Manufacturing Processes"
+
+      "Machine Design",
+      "Mechanics & Dynamics",
+      "Control Systems",
+      "Systems Modeling",
+      "Sensors & Instrumentation",
+      "Actuators & Power Electronics",
+      "Microprocessors",
+      "Circuits & PCB Design",
+      "Algorithms & Data Structures"
+
     ]
   };
 
@@ -39,7 +38,7 @@ const Education = () => {
             Education
           </h2>
           <p className="text-xl text-white max-w-2xl mx-auto">
-            Academic foundation and achievements in engineering and technology
+            Building a strong foundation in mechatronics engineering
           </p>
         </motion.div>
 
@@ -72,40 +71,15 @@ const Education = () => {
                   <MapPin className="w-5 h-5" />
                   <span>{education.location}</span>
                 </div>
-                <div className="text-accent font-semibold">
-                  GPA: {education.gpa}
-                </div>
               </div>
 
-              <div className="grid md:grid-cols-2 gap-8">
-                <div>
-                  <h3 className="text-xl font-semibold text-accent mb-4">
-                    Achievements
-                  </h3>
-                  <ul className="space-y-3">
-                    {education.achievements.map((achievement, index) => (
-                      <motion.li 
-                        key={index}
-                        initial={{ opacity: 0, x: -20 }}
-                        whileInView={{ opacity: 1, x: 0 }}
-                        transition={{ duration: 0.5, delay: index * 0.1 }}
-                        viewport={{ once: true }}
-                        className="flex items-start gap-3"
-                      >
-                        <div className="w-2 h-2 rounded-full bg-primary mt-2 flex-shrink-0" />
-                        <span className="text-white leading-relaxed">
-                          {achievement}
-                        </span>
-                      </motion.li>
-                    ))}
-                  </ul>
-                </div>
+              <div className="grid gap-8">
 
                 <div>
                   <h3 className="text-xl font-semibold text-accent mb-4">
                     Relevant Coursework
                   </h3>
-                  <div className="grid grid-cols-1 gap-2">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
                     {education.relevantCourses.map((course, index) => (
                       <motion.div
                         key={index}
