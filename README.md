@@ -8,9 +8,9 @@ https://saraalrifai.netlify.app/
 
 ## About Me
 
-I am a Mechatronics Engineering student at the University of Waterloo with hands-on experience in manufacturing automation, mechanical design, embedded systems, and engineering project work.
+I am a Mechatronics Engineering student at the University of Waterloo with hands-on experience in manufacturing, mechanical design, embedded systems, and engineering project work.
 
-My portfolio highlights my engineering experience, technical projects, and skills across mechanical design, embedded systems, controls, and programming.
+This portfolio highlights my engineering experience, technical projects, and skills across mechanical design, embedded systems, controls, and programming.
 
 ## Featured Projects
 
@@ -29,7 +29,8 @@ The project included:
 - Stepper motor control
 - Limit switches
 - Bidirectional motion
-- Boundary detection and testing
+- Boundary detection
+- Hardware-software debugging and testing
 
 Repository:
 
@@ -96,10 +97,9 @@ Worked on:
 - FDM 3D printing
 - Prototyping
 
-### Controls & Embedded Systems
+### Embedded Systems & Controls
 
 - STM32
-- PLCs
 - Sensors
 - Actuators
 - ADC
@@ -137,9 +137,30 @@ This portfolio was built using:
 - shadcn/ui
 - Framer Motion
 
-## Running the Portfolio Locally
+## Deployment
 
-Clone the repository:
+The portfolio is deployed using Netlify.
 
-```bash
-git clone YOUR_PORTFOLIO_REPOSITORY_URL
+Live site:
+
+https://saraalrifai.netlify.app/
+
+## Contact
+
+**Sara Alrifai**
+
+Portfolio:  
+https://saraalrifai.netlify.app/
+
+GitHub:  
+https://github.com/alrifaisara
+
+LinkedIn:  
+https://www.linkedin.com/in/saraalrifai
+
+Email:  
+s2alrifa@uwaterloo.ca
+
+---
+
+© 2026 Sara Alrifai
