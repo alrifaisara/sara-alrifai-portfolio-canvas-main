@@ -16,6 +16,16 @@ const Experience = () => {
         "Supported plant safety and facility-improvement projects, including the design and implementation of a pedestrian crosswalk integrating operational, layout, and employee-safety requirements.",
         "Created a Power BI Gemba walk tracker to monitor action items, standardize reporting, and improve visibility of outstanding plant issues."
       ]
+  },
+  {
+    title: "CAD Modelling Assistant",
+    organization: "IDS Consulting",
+    dates: "Apr 2023 - Sep 2023",
+    technologies: "SolidWorks · AutoCAD · Technical Drawings · 3D Modelling",
+    achievements: [
+    "Produced AutoCAD floor plans, SolidWorks 3D models, and technical drawings in collaboration with engineers to support project design requirements.",
+    "Interpreted engineering requirements and incorporated design revisions into drawings and 3D models to align deliverables with project specifications."
+    ]
   }
      
   ];
