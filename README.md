@@ -1,73 +1,145 @@
-# Welcome to your Lovable project
+# Sara Alrifai — Engineering Portfolio
 
-## Project info
+Personal engineering portfolio showcasing my experience, projects, technical skills, education, and resume.
 
-**URL**: https://lovable.dev/projects/a0f4d211-2978-47e2-884b-02191ea873de
+## Live Portfolio
 
-## How can I edit this code?
+https://saraalrifai.netlify.app/
 
-There are several ways of editing your application.
+## About Me
 
-**Use Lovable**
+I am a Mechatronics Engineering student at the University of Waterloo with hands-on experience in manufacturing automation, mechanical design, embedded systems, and engineering project work.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/a0f4d211-2978-47e2-884b-02191ea873de) and start prompting.
+My portfolio highlights my engineering experience, technical projects, and skills across mechanical design, embedded systems, controls, and programming.
 
-Changes made via Lovable will be committed automatically to this repo.
+## Featured Projects
 
-**Use your preferred IDE**
+### STM32 2-Axis Motion Control System
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+Designed and programmed a two-axis motion-control system using an STM32F401 microcontroller.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+The project included:
 
-Follow these steps:
+- C/C++
+- STM32
+- SPI communication
+- ADC-based speed control
+- GPIO
+- External interrupts
+- Stepper motor control
+- Limit switches
+- Bidirectional motion
+- Boundary detection and testing
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+Repository:
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+https://github.com/alrifaisara/STM32-Two-Axis-Motion-Control
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+### EV3 Prosthetic Hand
 
-**Edit a file directly in GitHub**
+Designed and programmed a prosthetic-hand prototype capable of controlled gripping and object manipulation.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+The project included:
 
-**Use GitHub Codespaces**
+- C
+- LEGO EV3
+- Sensor integration
+- Motor control
+- Mechanical design
+- Testing and design iteration
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Repository:
 
-## What technologies are used for this project?
+https://github.com/alrifaisara/Prosthetic-Hand-EV3
 
-This project is built with:
+## Experience
 
-- Vite
-- TypeScript
+### Engineering Co-op
+**Mondelēz International — Halls Plant**
+
+Sep 2025 – Apr 2026
+
+Worked on engineering projects involving:
+
+- Production-line controls upgrades
+- Equipment integration
+- AutoCAD plant layouts
+- CAPEX project development
+- Equipment operating principles
+- Plant safety improvements
+- Power BI reporting
+
+---
+
+### CAD Modelling Assistant
+**IDS Consulting**
+
+Apr 2023 – Sep 2023
+
+Worked on:
+
+- AutoCAD floor plans
+- SolidWorks 3D models
+- Technical drawings
+- Engineering design revisions
+
+## Technical Skills
+
+### Mechanical Design
+
+- SolidWorks
+- AutoCAD
+- GD&T
+- Technical drawings
+- FDM 3D printing
+- Prototyping
+
+### Controls & Embedded Systems
+
+- STM32
+- PLCs
+- Sensors
+- Actuators
+- ADC
+- SPI
+- GPIO
+- Interrupts
+- Arduino
+- FPGA
+- VHDL
+- PCB and circuit design
+
+### Programming
+
+- C
+- C++
+- Python
+- MATLAB
+- Simulink
+
+### Engineering Tools
+
+- Excel
+- PivotTables
+- VLOOKUP
+- Power BI
+
+## Portfolio Technologies
+
+This portfolio was built using:
+
 - React
-- shadcn-ui
+- TypeScript
+- Vite
 - Tailwind CSS
+- shadcn/ui
+- Framer Motion
 
-## How can I deploy this project?
+## Running the Portfolio Locally
 
-Simply open [Lovable](https://lovable.dev/projects/a0f4d211-2978-47e2-884b-02191ea873de) and click on Share -> Publish.
+Clone the repository:
 
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+```bash
+git clone YOUR_PORTFOLIO_REPOSITORY_URL
